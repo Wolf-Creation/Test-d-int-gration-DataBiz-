@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+    padding-bottom:85px;
+}
+
+.title h2{
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 30px;
+    color: #506a85;
+}
+
+.title p{
+    font-size: 22px;
+    font-weight: medium;
+    line-height: 32px;
+    color: #73879c;
+}
+
+.about-content h6{
+    font-size: 26px;
+    font-weight: bold;
+    color: #506a85;
+}
+
+.about-content p{
+    color: #73879c;
+}
+
+.area-description{
+    padding: 130px 0;
+}

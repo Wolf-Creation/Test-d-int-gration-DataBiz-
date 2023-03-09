@@ -1,0 +1,49 @@
+.hero{
+    height: 880px;
+}
+
+.slider-img{
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-content{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-inline: 100px;
+}
+
+.slider-content h1{
+    font-size: 78px;
+    font-weight: bolder;
+    color: #ffffff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.slider-content p {
+    font-size: 24px;
+    font-weight: medium;
+    color: #a3b1bf;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.getInTouch{
+    background-color: #00bc9c;
+    border: none;
+    padding: 20px 80px;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.15);
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}

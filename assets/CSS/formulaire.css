@@ -1,0 +1,64 @@
+.modal-content{
+    background-color: #2f4052;
+    padding: 50px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+input, textarea{
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #00bc9c;
+    font-size: 16px;
+    color: #ffffff;
+    background: transparent;
+    padding-left: 4px;
+    opacity: 1;
+}
+
+#email-field{
+    width: 100%;
+    height: 30px;
+}
+
+#message-label{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    transition: top 0.3s;
+}
+
+#message-field{
+    width: 100%;
+}
+
+#title-label{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 4px;
+    transition: bottom 0.3s;
+}
+
+.modal-content> button{
+    width: 170px;
+    color: #000000;
+}
+
+.btn{
+    background-color: #00bc9c ;
+    color: #ffffff;
+}
+
+.close-button{
+    background-color: #475869;
+}

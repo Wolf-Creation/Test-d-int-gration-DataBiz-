@@ -1,0 +1,134 @@
+.area-description:nth-child(3){
+    background-color: #f2f5f7;
+}
+
+.project-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #506a85;
+}
+
+.project-detail{
+    font-size: 14px;
+    color: #73879c;
+}
+
+.works-description{
+    background-color: #ffffff;
+    padding: 32px;
+}
+
+.works-carousel{
+    padding: 80px 0 45px;
+}
+
+.dots{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    background-color: #506a85;
+    border-radius: 10px;
+}
+
+.active{
+    background-color: #00bc9c;
+}
+
+.green-preview{
+    display: none;
+    width: 1000px;
+    height: 1000px;
+    background-color: #00bc9c;
+    top: 0;
+    opacity: 0.9;
+}
+
+.works-preview{
+    overflow: hidden;
+}
+
+.project:hover{
+    cursor: pointer;
+}
+
+.project:hover .green-preview{
+    display: block;
+}
+
+.project:hover .icon-plus{
+    display: block;
+}
+
+.project:hover .project-name{
+    color: #00bc9c;
+}
+
+.icon-plus{
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+.preview{
+    overflow: hidden;
+}
+
+.preview:hover {
+    cursor: pointer;
+}
+
+.preview:hover .green-preview{
+    display: block;
+}
+
+.works-description-2 .project-name{
+    color: white;
+    font-size: 16px;
+}
+
+.works-description-2 .project-detail{
+    color: white;
+}
+
+.works-description-2{
+    top: 40%;
+    left: 32%;
+    display: none;
+}
+
+.preview:hover .works-description-2{
+    display: block;
+}
+
+.next{
+    line-height: 1.6;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #506a85;
+    border-radius: 3px;
+    opacity: 0.25;
+    display : none;
+}
+
+.prev{
+    line-height: 1.6;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-color: #506a85;
+    border-radius: 3px;
+    display : none;
+}
+
+.pagination:hover .next{
+    display: block;
+}
+
+.pagination:hover .prev{
+    display: block;
+}
+
+.pagination{
+    height: 30px;
+}

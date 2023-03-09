@@ -1,0 +1,133 @@
+header {
+    height: 152px;
+}
+
+#navbar-header {
+    background-color: #f5f7fb;
+    box-shadow: 0 2px 0px 0px rgb(230, 233, 237, 1);
+    font-size: 12px;
+    font-weight: medium;
+    color: #506a85;
+}
+
+#navbar {
+    padding-top: 30px !important;
+    z-index: 999 !important;
+}
+
+#Email-block {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.main-list {
+    list-style: none;
+    height: 40px;
+}
+
+.main-list li {
+    text-decoration: none;
+    color: #506a85;
+    font-size: 15px;
+    font-weight: bold;
+    height: 100%;
+    padding-inline: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.main-list>li:hover {
+    cursor: pointer;
+    color: #00bc9c;
+}
+
+.parent-item:hover {
+    border-top: 1px solid #e6e9ed;
+    border-left: 1px solid #e6e9ed;
+    border-right: 1px solid #e6e9ed;
+    background-color: #f5f7fa;
+    box-shadow: 0 10px 10px 0 rgb(230, 233, 237, 0.5);
+}
+
+.parent-item:nth-child(1) {
+    width: 78px;
+}
+
+.sub-menu {
+    list-style: none;
+    display: none !important;
+    width: 167px;
+    left: 0;
+    top: 100%;
+}
+
+.sub-menu li {
+    text-decoration: none;
+    color: #506a85;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #e6e9ed;
+}
+
+.sub-menu li:hover {
+    background-color: #00bc9c;
+    color: #ffffff;
+}
+
+.parent-item:hover .sub-menu {
+    display: block !important;
+    z-index: 999;
+    color: #00bc9c;
+    border: 1px solid #e6e9ed;
+    background-color: #f5f7fa;
+    box-shadow: 0 10px 10px 0 rgb(63, 63, 63, 0.3);
+}
+
+#social-icons {
+    height: 40px;
+    cursor: pointer;
+}
+
+.fa-brands {
+    padding: 15px 10px;
+    color: #506a85;
+}
+
+.fa-facebook-f:hover{
+    color: white;
+    background-color: #4668b3;
+}
+
+.fa-behance:hover{
+    color: white;
+    background-color: #3079ff;
+}
+
+.fa-dribbble:hover{
+    color: white;
+    background-color: #eb6397;
+}
+
+.fa-pinterest-p:hover{
+    color: white;
+    background-color: #d94348;
+}
+
+.fa-twitter:hover{
+    color: white;
+    background-color: #2fbbed;
+}
+
+.fa-google-plus-g:hover{
+    color: white;
+    background-color: #de5745;
+}
+
+.mail:hover{
+    color: #00bc9c;
+}
+
+#logo-icon img:hover{
+    opacity: 0.6;
+}

@@ -1,0 +1,101 @@
+footer{
+    background-color: #2f4052;
+}
+
+.footer-content{
+    padding: 75px 0;
+}
+
+.footer-ending{
+    background-color: #283645 ;
+    height: 80px;
+}
+
+.left-ending{
+    color: #707e8c;
+    font-size: 14px;
+}
+
+.right-ending li{
+    color: #707e8c;
+    cursor: pointer;
+}
+
+.home{
+    color: #00bc9c !important;
+}
+
+footer p{
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+footer h6{
+    font-size: 15px;
+    color: #a3b1bf;
+    font-weight: bold;
+}
+
+footer h5{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold; 
+}
+
+.subscribe{
+    left: 70%;
+    top: 17%;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 8px;
+    background-color: #00bc9c;
+    box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.15);
+    border-radius: 3px ;
+    color: white;
+}
+
+input{
+    width: 100%;
+    height: 45px;
+    border-radius: 7px;
+    opacity: 0.15;
+    color: #828e99;
+    font-size: 14px;
+    padding-inline: 10px;
+}
+
+.location, .mail, .number{
+    height: 25px;
+}
+
+.works-preview-2:hover .green-preview{
+    display: block;
+}
+
+.works-preview-2{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.works-preview-2:hover .icon-plus{
+    display: block;
+    top: 40%;
+    left: 45%;
+}
+
+.logo-icon:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.location:hover p, .number:hover p, .mail:hover p{
+    cursor: pointer;
+    color: #00bc9c;
+}
+
+.more-about h6:hover{
+    cursor: pointer;
+    color: #00bc9c;
+}
