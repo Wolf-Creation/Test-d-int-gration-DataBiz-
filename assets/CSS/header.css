@@ -1,5 +1,5 @@
 header {
-    height: 152px;
+    height: 142px;
 }
 
 #navbar-header {
@@ -11,7 +11,7 @@ header {
 }
 
 #navbar {
-    padding-top: 30px !important;
+    padding: 30px !important;
     z-index: 999 !important;
 }
 

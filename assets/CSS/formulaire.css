@@ -16,6 +16,7 @@ label{
 input, textarea{
     outline: none;
     border: 0;
+    border-radius: 0;
     border-bottom: 1px solid #00bc9c;
     font-size: 16px;
     color: #ffffff;
@@ -57,6 +58,7 @@ input, textarea{
 .btn{
     background-color: #00bc9c ;
     color: #ffffff;
+    border-radius: 2px !important;
 }
 
 .close-button{

@@ -1,0 +1,18 @@
+#scroll-top-btn {
+    height: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    display: none;
+    background-color: #506a85;
+    color: #1d1d1d;
+    padding: 6px 12px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#scroll-top-btn >img{
+    width: 15px;
+}
