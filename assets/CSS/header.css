@@ -28,13 +28,17 @@ header {
 .main-list li {
     text-decoration: none;
     color: #506a85;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     height: 100%;
     padding-inline: 16px;
     display: flex;
     align-items: center;
     justify-content: start;
+}
+
+.parent-item li {
+    border-bottom: 1px solid #e6e9ed;
 }
 
 .main-list>li:hover {
@@ -60,14 +64,6 @@ header {
     width: 167px;
     left: 0;
     top: 100%;
-}
-
-.sub-menu li {
-    text-decoration: none;
-    color: #506a85;
-    font-size: 14px;
-    font-weight: bold;
-    border-bottom: 1px solid #e6e9ed;
 }
 
 .sub-menu li:hover {
@@ -130,4 +126,101 @@ header {
 
 #logo-icon img:hover{
     opacity: 0.6;
+}
+
+.parent-content:hover .MEGA-content{
+    display: block;
+}
+
+.MEGA-content{
+    display: none;
+    top: 100%;
+    left: -540% ;
+    z-index: 10;
+    width: 1200px;
+    padding: 50px;
+    background-color: #f5f7fa;
+    box-shadow: 0  10px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #e6e9ed;
+}
+
+.MEGA-content ul{
+    padding: 0; 
+}
+
+.MEGA-content li{
+    padding: 0;
+    border: unset;
+    line-height: 28px;
+}
+
+.MEGA-content h5{
+    color: #506a85;
+}
+
+.MEGA-content p, .MEGA-content li{
+    color: #73879c;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.MEGA-content li:hover{
+    color: #00bc9c;
+}
+
+.MEGA-content button{
+    background-color: #00bc9c;
+    border: none;
+    padding: 8px 20px;
+    color: #ffffff;
+}
+
+.MEGA-content h5 {
+    padding-bottom: 20px;
+}
+
+.MEGA-content .focusOn{
+    padding-bottom: 16px;
+}
+
+.MEGA-item:hover{
+    border: 1px solid #e6e9ed;
+    background-color: #f5f7fa;
+    box-shadow: 0 10px 10px 0 rgb(230, 233, 237, 0.5);
+}
+
+.MEGA-item:hover .MEGA-content{
+    display: block;
+}
+
+.navbar-scroll li {
+    cursor: pointer;
+    list-style: none;
+    font-weight: bold;
+    color: #506a85;
+    font-size: 15px;
+}
+
+.navbar-scroll .logo:hover{
+    cursor: pointer;
+}
+
+.navbar-scroll img{
+    height: 20px;
+}
+
+.navbar-scroll{
+    position: fixed;
+    display: none;
+    background-color: #ffffff ;
+    box-shadow: 0 10px 10px 0 rgba(2, 2, 2, 0.2);
+    height: 60px;
+    top: 0;
+    z-index: 10000;
+}
+
+.navbar-scroll #search-icon img{
+    cursor: pointer;
+    width: 15px;
+    height: auto;
 }

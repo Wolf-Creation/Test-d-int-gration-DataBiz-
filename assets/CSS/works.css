@@ -121,11 +121,11 @@
     display : none;
 }
 
-.pagination:hover .next{
+.others:hover .next{
     display: block;
 }
 
-.pagination:hover .prev{
+.others:hover .prev{
     display: block;
 }
 
