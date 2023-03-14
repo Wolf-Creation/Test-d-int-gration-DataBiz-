@@ -4,5 +4,5 @@ function SpinnerLoad() {
     spinner.style.display = 'block';
     setInterval(() => {
         spinner.style.display = 'none';
-    }, 5000);
+    }, 3000);
 };
