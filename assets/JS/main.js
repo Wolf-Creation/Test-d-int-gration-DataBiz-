@@ -1,3 +1,3 @@
 window.onload = () => {
-    /* SpinnerLoad() */
+    SpinnerLoad()
 }
